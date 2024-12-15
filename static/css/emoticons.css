@@ -1,0 +1,55 @@
+.em {
+    display:inline-block;
+    width:16px; height:16px;
+    background: url("../img/emoticons.png");
+    margin-left: 3px;
+    vertical-align:middle
+}
+.em-smile{ background-position: -4px -4px; }
+.em-confuse{ background-position: -28px -4px; }
+.em-wink{ background-position: -52px -4px; }
+.em-waii{ background-position: -76px -4px; }
+.em-guesswho{ background-position: -100px -4px; }
+.em-exciting{ background-position: -124px -4px; }
+.em-grin{ background-position: -148px -4px; }
+.em-lol{ background-position: -172px -4px; }
+.em-unhappy{ background-position: -4px -28px; }
+.em-snooty{ background-position: -28px -28px; }
+.em-amazing{ background-position: -52px -28px; }
+.em-waaaht{ background-position: -76px -28px; }
+.em-yuush{ background-position: -100px -28px; }
+.em-sad{ background-position: -124px -28px; }
+.em-crazy{ background-position: -148px -28px; }
+.em-mad{ background-position: -172px -28px; }
+.em-what{ background-position: -4px -52px; }
+.em-angel{ background-position: -28px -52px; }
+.em-love{ background-position: -52px -52px; }
+.em-kiss{ background-position: -76px -52px; }
+.em-baby{ background-position: -100px -52px; }
+.em-dead{ background-position: -124px -52px; }
+.em-beaten{ background-position: -148px -52px; }
+.em-cool{ background-position: -172px -52px; }
+.em-tongue{ background-position: -4px -76px; }
+.em-shame{ background-position: -28px -76px; }
+.em-cry{ background-position: -52px -76px; }
+.em-doubt{ background-position: -76px -76px; }
+.em-daddy{ background-position: -100px -76px; }
+.em-detective{ background-position: -124px -76px; }
+.em-nerd{ background-position: -148px -76px; }
+.em-horror{ background-position: -172px -76px; }
+.em-whew{ background-position: -4px -100px; }
+.em-reading{ background-position: -28px -100px; }
+.em-doze{ background-position: -52px -100px; }
+.em-sleep{ background-position: -76px -100px; }
+.em-silent{ background-position: -100px -100px; }
+.em-shocked{ background-position: -124px -100px; }
+.em-sick{ background-position: -148px -100px; }
+.em-devil{ background-position: -172px -100px; }
+.em-heart{ background-position: -4px -124px; }
+.em-cup{ background-position: -28px -124px; }
+.em-food{ background-position: -52px -124px; }
+.em-eye{ background-position: -76px -124px; }
+.em-flower{ background-position: -100px -124px; }
+.em-globe{ background-position: -124px -124px; }
+.em-crown{ background-position: -148px -124px; }
+.em-warn{ background-position: -172px -124px; }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <style>
+        body {
+            background:#333;
+            text-align: center;
+        }
+        iframe {
+            margin:0 auto;
+            margin-top:100px;
+            margin-bottom: 30px;
+        }
+        iframe.portrait {
+            width:320px; height:480px;
+        }
+        iframe.landscape {
+            width:480px; height:320px;
+        }
+        a { color: #CCC; }
+    </style>
+    <script src="/static/js/libs/jquery.min.js"></script>
+</head>
+<body>
+    <iframe id="iframe" src="/" class="portrait" frameborder="0"></iframe>
+    <a href="#" id="portrait">Portrait</a> | <a href="#" id="landscape">Landscape</a>
+    <script>
+        $(function(){
+            $('#portrait').click(function(e){
+                e.preventDefault();
+                $('#iframe').removeClass('landscape').addClass('portrait');
+            });
+            $('#landscape').click(function(e){
+                e.preventDefault();
+                $('#iframe').removeClass('portrait').addClass('landscape');
+            });
+        });
+    </script>
+</body>
+</html>

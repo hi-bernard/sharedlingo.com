@@ -1,0 +1,15 @@
+<?php return [
+    'adminMenu' => 'Administration',
+    'massMail' => 'Send Mass Mail',
+    'shitMail' => 'Bad Mail Domains',
+    'shitMailExists' => 'Domain <b>%s</b> already exists',
+    'mailDomain' => 'Domain',
+    'mailSender' => 'Message Sender',
+    'mailSendToOnline' => 'Send to online users only',
+    'liveStats' => 'Live Stats',
+    'dayStats' => 'Daily Stats',
+    'activeRooms' => 'Active Rooms',
+    'counters' => 'Live Counters',
+    'suggestCounter' => 'Suggest Topic',
+    'broadcast' => 'Broadcast',
+];
